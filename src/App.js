@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
-
+import Form from './components/Form'
 import './App.css';
 
 class App extends Component {
 
+  state={
+    quiz:[]
+  }
+
+  handleSubmit=(value)=>{
+    console.log(value)
+  }
 
 
 
@@ -17,9 +24,7 @@ class App extends Component {
         </span>
       </div>
       </div>
-      <form className="title-form">
-      <input/>
-      </form>
+      <Form handleSubmit={this.handleSubmit}/>
       </>
     );
   }
