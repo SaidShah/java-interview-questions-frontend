@@ -9,13 +9,13 @@ body{
 
 .margins{
   margin-top: 3%;
-
+  margin-bottom: 2%;
 }
 
 .eachCard{
   border: 1px gray solid;
   width: 70%;
-  padding: 10px;
+  padding: 2%;
   text-align: center;
   margin: auto;
   background: #00e5ff;
@@ -24,7 +24,7 @@ body{
 
 .showAnswer{
   padding-top: 3%;
-  color: green;
+  color: blue;
 }
 
 .divider{
@@ -38,6 +38,7 @@ body{
 
 .label{
   padding-right: 10px;
+  margin: 5%;
 }
 
 .title{
@@ -51,6 +52,7 @@ body{
 .btn-md{
   padding-left: 10px;
   margin-left: 10px;
+  margin-top: 3%;
 }
 
 .title-text{

@@ -12,7 +12,7 @@ class EachQuestion extends Component {
   }
 
   displayAnswer=()=>{
-    return <h2 className="showAnswer">{this.props.eachQuestion.answer}</h2>
+    return <h3 className="showAnswer">{this.props.eachQuestion.answer}</h3>
   }
 
   render() {
