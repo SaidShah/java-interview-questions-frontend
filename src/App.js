@@ -9,12 +9,19 @@ class App extends Component {
   }
 
   handleSubmit=(value)=>{
-    console.log(value)
+    fetch(`http://localhost:3002/questions?totalQuestons=${value}`)
+    .then(res => res.json())
+    .then(questions =>{
+      this.setState({
+        quiz: questions
+      })
+    })
   }
 
 
 
   render() {
+    console.log(this.state);
     return (
       <>
       <div className="App">
