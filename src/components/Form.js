@@ -25,7 +25,7 @@ class Form extends Component {
       <div className="form App">
       <form onSubmit={(e)=>this.handleSubmit(e,this.state.input)}>
         <label htmlFor="input" className="label">How many questions would you like?</label>
-        <input name="input" type="number" value={this.state.input} placeholder="Enter a number 1-77 " onChange={this.handleChange}></input>
+        <input name="input" type="number" value={this.state.input} placeholder="Enter a number 1-77 " onChange={this.handleChange}  min="1"></input>
         <input type="submit" className="btn-md blue"></input>
       </form>
       </div>
