@@ -10,7 +10,7 @@ class App extends Component {
   }
 
   handleSubmit=(value)=>{
-    fetch(`http://localhost:3002/questions?totalQuestons=${value}`)
+    fetch(`https://java-tech-interview-backend.herokuapp.com?totalQuestons=${value}`)
     .then(res => res.json())
     .then(questions =>{
       this.setState({
