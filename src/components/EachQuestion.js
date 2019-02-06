@@ -16,7 +16,6 @@ class EachQuestion extends Component {
   }
 
   render() {
-    console.log(this.state.showAnswer)
     return (
       <div className="margins">
         <div className="eachCard">
